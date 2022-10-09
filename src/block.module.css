@@ -1,0 +1,15 @@
+.Card{
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #ccc;
+    background-color: azure;
+  }
+
+  @media (min-width:700px){
+    .Card{
+        width:40%;
+        display: inline-block;
+    }
+  }
